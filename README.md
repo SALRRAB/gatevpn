@@ -1,6 +1,6 @@
 # Eianun免费聚合落地IP 🌐
 
-基于 VPNGate / VPNBook / IPSpeed / Vpngate-Scraper / PublicVPNList + OpenVPN 的 Linux VPS 出站代理网关二改版。新增多来源节点拉取、指定地区拉取、同地区故障转移、IP 类型优先级、非中断检测与自动兜底。
+基于 VPNGate / VPNBook / IPSpeed / Vpngate-Scraper / PublicVPNList + OpenVPN 的 Linux VPS 出站代理网关。新增多来源节点拉取、指定地区拉取、同地区故障转移、IP 类型优先级、非中断检测与自动兜底。
 
 ## 主要改动
 - 新增多节点来源：默认同时拉取 **VPNGate + VPNBook + IPSpeed + Vpngate-Scraper + PublicVPNList**。PublicVPNList 默认使用官方 API v1；人工快照只作为可选覆盖，也可在面板里切换为任意单一或组合来源。
